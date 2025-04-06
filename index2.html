@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Contacts Page</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Portal</h1>
+        <p>Your one-stop destination to connect and register!</p>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Steps to Get Started</h2>
+        <ol type="I">
+            <li>Visit our homepage</li>
+            <li>Register an account</li>
+            <li>Verify your email</li>
+            <li>Login to your dashboard</li>
+            <li>Enjoy our services</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Welcome Image</h2>
+        <img src="https://www.pexels.com/photo/group-of-people-watching-on-laptop-1595385/" 
+             alt="Team working together" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Our Contacts</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>123 Main St, Nairobi</td>
+                    <td>+254 700 000001</td>
+                    <td>alice@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Okoth</td>
+                    <td>456 River Rd, Mombasa</td>
+                    <td>+254 700 000002</td>
+                    <td>brian@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Carol Wanjiku</td>
+                    <td>789 Kenyatta Ave, Kisumu</td>
+                    <td>+254 700 000003</td>
+                    <td>carol@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>David Mutiso</td>
+                    <td>101 Moi Ave, Eldoret</td>
+                    <td>+254 700 000004</td>
+                    <td>david@example.com</td>
+                </tr>
+                <tr>
+                    <td>Esther Mwangi</td>
+                    <td>202 Ngong Rd, Nakuru</td>
+                    <td>+254 700 000005</td>
+                    <td>esthermwangi@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>User Registration</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Gender (Radio buttons) -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <!-- Course Dropdown -->
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Choose a Course--</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="se">Software Engineering</option>
+            </select><br><br>
+
+            <!-- Interests (Checkboxes) -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="gaming" name="interests" value="gaming">
+            <label for="gaming">Gaming</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us: asmanabduloruko@gmail.com | &copy; 2025 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
